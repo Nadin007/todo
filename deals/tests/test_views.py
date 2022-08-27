@@ -1,8 +1,9 @@
-from deals.models import Task
 from django import forms
 from django.contrib.auth import get_user_model
 from django.test import Client, TestCase
 from django.urls import reverse
+
+from deals.models import Task
 
 User = get_user_model()
 
